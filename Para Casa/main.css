@@ -1,12 +1,27 @@
 
 
-#caroulsel{
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);	
+
+body{
+    background-color: #c77174;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+}
+ #carousel{
     width: 800px;
     height:600px;
-    margin: 50px 200px;
+    margin: 50px 600px;
     overflow: hidden;
     box-shadow: 0 0 8px #000;
     position: relative;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 #carousel img{
@@ -28,4 +43,3 @@
     background: rgba(0,0,0,0.5);  
     color: #fff;
     }
-
